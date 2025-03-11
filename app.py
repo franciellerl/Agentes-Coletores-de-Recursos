@@ -5,7 +5,7 @@ import time
 from models import create_grid, add_river, add_mountains, distribute_resources
 from agents import ReactiveAgent, StateBasedAgent, known_resources
 
-st.title("Trabalho 1 IA - Francielle Rodrigues, João Sales, Pedro Lima")
+st.title("IA - Agentes Coletores de Recursos")
 num_ticks = st.slider("Select Number of Steps", min_value=1, max_value=100, value=20)
 rows = st.slider("Select Grid Height", min_value=10, max_value=50, step=5, value=15)
 cols = st.slider("Select Grid Width", min_value=10, max_value=50, step=5, value=15)
